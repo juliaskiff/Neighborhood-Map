@@ -43,6 +43,8 @@ class MapContainer extends Component {
     return null;
   }
 
+
+  // Catch errors
   componentDidCatch(error, errorInfo) {
     this.setState({
       hasError: true
@@ -53,8 +55,9 @@ class MapContainer extends Component {
 
     const image = 'https://nagdca.org/portals/45/Images/MapMarker2.png';
 
+     // If an error occurs
      if(this.state.hasError) {
-      return <h2 className="error">Sorry, Google Maps cannot be loaded</h2>
+      return <h2 className="error">Sorry, something went wrong. Application loading failed.</h2>
     } else {
 
   		return (

@@ -44,11 +44,12 @@ button {
   	line-height: 23px;
 }
 
-h2.error {
+.error {
 	color: #f44292;
 	text-align: center;
 	padding: 50px 10px;
 }
+
 /*MENU*/
 li>button {
 	background-color: inherit;
