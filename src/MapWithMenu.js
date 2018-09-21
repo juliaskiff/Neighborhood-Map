@@ -26,9 +26,7 @@ class MapWithMenu extends Component {
 	          }
 	        })
 	      this.setState({ allLocations: places })
-	      /*console.log(this.state.allLocations)*/
 	      this.setState({ activeMarkers: places })
-		  /*console.log(this.state.activeMarkers)*/
 	    })
 	    //If Foursquare can't load 
 	    .catch(error => {
@@ -80,7 +78,7 @@ class MapWithMenu extends Component {
 						<input type="text"
 							aria-labelledby="searchbar"
 							placeholder="Would you like to have a coffee?"
-							tabIndex="3"
+							tabIndex="4"
 							className="search-input"
 							value={this.state.value}
 							onChange={event => this.updateQuery(event.target.value)}
