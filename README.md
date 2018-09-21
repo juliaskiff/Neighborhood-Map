@@ -18,12 +18,14 @@ The application includes:
 
 # Installation
  - Development mode
-	1. clone the repository
-	2. install all project dependencies with 'npm install'
-	3. start the development server with 'npm start'
+	- clone the repository
+	- install all project dependencies with 'npm install'
+	- start the development server with 'npm start'
 
  - Production mode
-	By default the service worker is only enabled in the production mode. 
+ 
+	By default the service worker is only enabled in the production mode.
+	
 	To build the app for production:
-	1. create the optimized version with 'npm run build'
-	2. deploy it with 'npm run deploy'
+	- create the optimized version with 'npm run build'
+	- deploy it with 'npm run deploy'
